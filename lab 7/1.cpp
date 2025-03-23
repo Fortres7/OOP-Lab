@@ -80,9 +80,9 @@ class FixedDepositAccount : public Amount{
 };
 
 int main(){
-    SavingsAccount savings(101, 5000, "John Doe", 3.5, 1000);
-    CheckingAccount checking(102, 2000, "Jane Smith");
-    FixedDepositAccount fixed(103, 10000, "Alice Brown", 20251231, 5.0);
+    SavingsAccount savings(101, 5000, "Ali", 3.5, 1000);
+    CheckingAccount checking(102, 2000, "Hamza");
+    FixedDepositAccount fixed(103, 10000, "Ahmed", 20251231, 5.0);
     
     savings.getAccountInfo();
     savings.calculateInterest();
